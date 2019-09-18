@@ -7,8 +7,8 @@ const Contact = mongoose.model('contact', {
     email: {
         type: String,
     },
-    number: {
-        type: Number,
+    subject: {
+        type: String,
     },
     message: {
         type: String
