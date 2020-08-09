@@ -8,7 +8,7 @@ const experienceInputValue = document.querySelector('#experienceInput');
 const btn = document.querySelector('#submitBtn');
 
 btn.addEventListener('click', (e) => {
-  creditScoreInputValue = creditScoreInputValue.value;
+
     e.preventDefault();
     let lead = {};
     const name = nameInputValue.value;
