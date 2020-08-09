@@ -1,4 +1,31 @@
-/* Add here all your CSS customizations */
-.bg-color-black {
-    background: red;
+.product-list ul li {
+    font-weight: bold;
+    color: #180354;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.call-to-action-modal {
+    background-color: #1FD790;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+}
+
+.card-title-product {
+    color: #F55541;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+.card-subtitle-product {
+    padding-left: 30px;
+    margin-top: -30px;
+    padding-left: 20px;
+    color: #180354;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
