@@ -1,19 +1,19 @@
 const mongoose = require('mongoose')
 
-const Contact = mongoose.model('contact', {
-    name: {
+const Lead = mongoose.model('lead', {
+    address: {
         type: String,
     },
-    email: {
+    price: {
         type: String,
     },
-    subject: {
+    score: {
         type: String,
     },
-    message: {
+    experience: {
         type: String
     }
 })
 
-module.exports = Contact
+module.exports = Lead
 
